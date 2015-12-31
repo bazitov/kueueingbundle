@@ -7,9 +7,13 @@
     },
     "require": {
         "ext-curl": "*",
-        "oldsound/rabbitmq-bundle": "~1.2"
+        "symfony/process": "~2.3 || ~3.0",
+        "oldsound/rabbitmq-bundle": "dev-master"
     },
     "require-dev": {
+        "symfony/framework-bundle": "~2.3 || ~3.0",
+        "symfony/finder": "~2.3 || ~3.0",
+        "symfony/monolog-bundle": "~2.3 || ~3.0",
         "phpunit/phpunit": "~4.0",
         "codeclimate/php-test-reporter": "~0.2"
     },
